@@ -29,7 +29,7 @@ public class TestDB {
 		     st2.setString(1, shapeScelta);
 		     ResultSet res2=st2.executeQuery();
 		     res2.first();
-		     int count=res2.getInt("cnt");
+		     int count=res2.getInt("cnt"); 
 		     st2.close();
 		     System.out.println ("Numero UFO di forma circle: "+count);
 		     conn.close();
